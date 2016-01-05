@@ -1,0 +1,9 @@
+.create {
+  &--brand {
+    &__form {
+      @extend .card;
+
+      padding: 10px;
+    }
+  }
+}

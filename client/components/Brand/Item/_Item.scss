@@ -1,0 +1,9 @@
+.item {
+  &--brand {
+    @extend .collection-item;
+
+    &__action {
+      @extend .secondary-content;
+    }
+  }
+}

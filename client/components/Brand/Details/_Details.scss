@@ -1,0 +1,24 @@
+.details {
+  &--brand {
+    &__row {
+      @extend .row;
+    }
+
+    &__col {
+      @extend .col, .m8, .offset-m2;
+    }
+
+    &__card {
+      @extend .card;
+    }
+
+    &__card-content {
+      @extend .card-content;
+    }
+
+    &__card-title {
+      @extend .card-title,
+              .black-text;
+    }
+  }
+}

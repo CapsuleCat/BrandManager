@@ -1,0 +1,11 @@
+.view {
+  &--brand {
+    &__row {
+      @extend .row;
+    }
+
+    &__form-wrapper {
+      @extend .col, .s12, .m8, .offset-m2;
+    }
+  }
+}
