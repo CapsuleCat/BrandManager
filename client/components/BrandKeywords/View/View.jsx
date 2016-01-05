@@ -19,9 +19,14 @@ BrandKeywords.View = React.createClass({
   bem_render() {
     return (
       <div bem_element="">
-        <h2>Your Brand Keywords</h2>
+        <h2>If your brand was a person, how would people describe it?</h2>
+
+        <BrandKeywords.Create />
+
+        <BrandKeywords.Suggestions keywords={this.props.brand.keywords} />
 
         <BrandKeywords.List keywords={this.props.brand.keywords} />
+
       </div>
     );
   }

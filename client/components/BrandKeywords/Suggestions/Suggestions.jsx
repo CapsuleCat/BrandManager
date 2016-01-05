@@ -1,9 +1,9 @@
 /**
- * BrandKeywords List
+ * BrandKeywords Suggestions
  */
 BrandKeywords = typeof BrandKeywords === 'undefined' ? {} : BrandKeywords;
 
-BrandKeywords.List = React.createClass({
+BrandKeywords.Suggestions = React.createClass({
   mixins: [ReactMeteorData, ReactBEM],
   getMeteorData() {
     return {};
@@ -19,7 +19,7 @@ BrandKeywords.List = React.createClass({
   componentDidMount() {
     //
   },
-  bem_blocks: ['list'],
+  bem_blocks: ['suggestions'],
   bem_block_modifiers: ['brand-keywords'],
   bem_render() {
     return (
